@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+    <div id="container">
+        <h1 id="title">CALENDER</h1>
+        
+        <div id="sub-container">
+            <div id="current-time"></div>
+            <div id="current-date"></div>
+            
+            <div id="calender">
+                <div class="button-container">
+                    <button id="previous" onclick="previous()"> < </button>
+                    <span id="year">2020</span>
+                    <button id="next" onclick="next()"> > </button>
+                </div>
+            </div>
+        </div>
+            
+        <div id="calender-body">
+            <div id="calender-week-days">
+                <div id="day">Sun</div>
+                <div id="day">Mon</div>
+                <div id="day">Tue</div>
+                <div id="day">Wed</div>
+                <div id="day">Thur</div>
+                <div id="day">Fri</div>
+                <div id="day">Sat</div>
+            </div>
+            
+            <div id="calender-dates">
+                
+            </div>
+        </div>
+        
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
